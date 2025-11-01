@@ -23,7 +23,7 @@ function startCountdown() {
     const diff = endOfNovember - currentTime;
 
     if (diff <= 0) {
-      document.getElementById("countdown").innerText = "November er ferdig!";
+      document.getElementById("countdown").innerText = "NNN is finally over🎉";
       return;
     }
 
@@ -57,4 +57,5 @@ function switchTheme() {
   }
 
   brukerStyle1 = !brukerStyle1;
+
 }
